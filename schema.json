@@ -1,0 +1,23 @@
+{
+  "title": "Free AI API Benchmark Dataset",
+  "description": "Performance benchmarks across 7 free-tier LLM APIs for inference routing research",
+  "total_records": 100,
+  "sample_size": 20,
+  "generated": "2026-08-11",
+  "fields": [
+    "id",
+    "timestamp",
+    "provider",
+    "model",
+    "rpm_limit",
+    "task_type",
+    "latency_ms",
+    "tokens_input",
+    "tokens_output",
+    "success",
+    "rate_limited",
+    "free_tier",
+    "cost_usd"
+  ],
+  "format": "json"
+}
